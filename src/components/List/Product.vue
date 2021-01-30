@@ -6,7 +6,7 @@
         <h5>{{item.title}}</h5>
         <span class="text-success">${{item.price}}</span>
         <div>
-          <router-link :to="{ name: 'Detail', params: { id: item.id } }">
+          <router-link :to="{ name: 'Detail', params: { id: item.id } }" id="details-button">
             Ver más
           </router-link>
         </div>

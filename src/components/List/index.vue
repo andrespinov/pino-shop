@@ -1,8 +1,8 @@
 <template>
   <div>
     <div class="input-container">
-      <b-form-input v-model="search" placeholder="Ingresa tu búsqueda" type="search"></b-form-input>
-      <b-button v-on:click="onSearch">Buscar</b-button>
+      <b-form-input v-model="search" placeholder="Ingresa tu búsqueda" type="search"  id="search-input"></b-form-input>
+      <b-button v-on:click="onSearch" id="search-button">Buscar</b-button>
     </div>
     <div>
       <b-row>
